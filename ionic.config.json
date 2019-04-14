@@ -1,0 +1,7 @@
+{
+  "name": "ctfGame",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

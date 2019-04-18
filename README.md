@@ -13,8 +13,14 @@ For me it worked to simply run the following commands:
 $ git clone https://github.com/marcelkipp/ionic4-meteor-boilerplate.git
 $ cd ionic4-meteor-boilerplate
 $ npm install
+$ meteor-client bundle -s api
+
+In a new terminal - run the server:
 $ cd api
-$ meteor
-$ cd .. 
+$ meteor run
+
+Run the client:
 $ ionic serve
 ```
+
+Then browse to http://localhost:8100/test
